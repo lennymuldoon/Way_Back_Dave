@@ -225,7 +225,7 @@ GameObject:
   m_Component:
   - component: {fileID: 567693821}
   - component: {fileID: 567693820}
-  m_Layer: 0
+  m_Layer: 1
   m_Name: Level0_Future
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -478,8 +478,24 @@ PrefabInstance:
       value: Player
       objectReference: {fileID: 0}
     - target: {fileID: 7813961963069167821, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
+      propertyPath: m_Radius
+      value: 0.39082894
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813961963069167821, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.026518822
+      objectReference: {fileID: 0}
+    - target: {fileID: 7813961963069167821, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
       propertyPath: m_Offset.y
-      value: -0.08
+      value: -0.072044045
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866046567983462287, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
+      propertyPath: m_Size.x
+      value: 0.8755474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8866046567983462287, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.103710175
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
