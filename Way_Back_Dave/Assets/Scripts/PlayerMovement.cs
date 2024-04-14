@@ -7,6 +7,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public AudioSource audioSource;
+    public AudioClip deathSound;
+
 
     public float runSpeed = 40f;
 
@@ -31,6 +34,7 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetButtonDown("Jump"))
         {
             jump = true;
+            
         }
         if (Input.GetButtonDown("Crouch"))
         {
@@ -45,6 +49,7 @@ public class PlayerMovement : MonoBehaviour
     {
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
+        
 
     }
 
@@ -58,6 +63,7 @@ public class PlayerMovement : MonoBehaviour
       if (collision.gameObject.tag == "Floor")
       {
         transform.position = respawnPoint;
+        audioSource.PlayOneShot(deathSound);
       }
     }
 }
