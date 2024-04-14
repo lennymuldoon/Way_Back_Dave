@@ -1666,6 +1666,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8300000, guid: e5bd822926e4f469b8ea982e4de6889e, type: 3}
     - target: {fileID: 8552445670071382160, guid: 4467ccd1dea04439797eb41e05372ab3, type: 3}
+      propertyPath: deathSound
+      value: 
+      objectReference: {fileID: 8300000, guid: e5bd822926e4f469b8ea982e4de6889e, type: 3}
+    - target: {fileID: 8552445670071382160, guid: 4467ccd1dea04439797eb41e05372ab3, type: 3}
       propertyPath: audioSource
       value: 
       objectReference: {fileID: 51035116}
