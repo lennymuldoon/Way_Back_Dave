@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 5786183534992963544}
   - component: {fileID: 4520794666401860229}
   m_Layer: 0
-  m_Name: backstop
+  m_Name: groudFloor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,13 +27,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1846904208245686223}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.009535372, y: 0.023829164, z: -0.00022729482, w: 0.99967057}
+  m_LocalRotation: {x: 0.02359229, y: 0.010107237, z: 0.70671314, w: 0.7070345}
   m_LocalPosition: {x: -10.62, y: 0.57, z: 0.21}
-  m_LocalScale: {x: 0.4869, y: 10.919855, z: 0}
+  m_LocalScale: {x: 0.4869, y: 22.94589, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 1.093, y: 2.731, z: 0}
+  m_LocalEulerAnglesHint: {x: 1.093, y: 2.731, z: 90}
 --- !u!212 &1047603079833097578
 SpriteRenderer:
   m_ObjectHideFlags: 0
