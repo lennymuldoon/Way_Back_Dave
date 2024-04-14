@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/woodStock.unity
     guid: 1f3ebf14e6b294f95a7714563f8b2c76
+  - enabled: 1
+    path: Assets/Levels/Bryan.unity
+    guid: c4ddd30d48c5a42ee8b3789f3dd04766
+  - enabled: 1
+    path: Assets/Levels/end.unity
+    guid: a8cf71c7d5697447f9c8adb7f14cfb47
   - enabled: 0
     path: Assets/Levels/level2.unity
     guid: 8af298cffb72743518ad3fe3fe33895e
