@@ -618,6 +618,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7893280722366597375, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
+      propertyPath: m_JumpForce
+      value: 450
+      objectReference: {fileID: 0}
+    - target: {fileID: 7893280722366597375, guid: e3417a01ef3954b8bacdedfb6b7befad, type: 3}
       propertyPath: m_CrouchDisableCollider
       value: 
       objectReference: {fileID: 1069354619}
