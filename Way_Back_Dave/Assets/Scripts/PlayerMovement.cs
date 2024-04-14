@@ -45,4 +45,19 @@ public class PlayerMovement : MonoBehaviour
         controller.Move(horizontalMove * Time.fixedDeltaTime, crouch, jump);
         jump = false;
     }
+
+    /*
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+       if (collision.gameObject.name == "Portal")
+       {
+           NextLevel.Instance.transitionToNextLevel();
+       }
+
+      if (collision.gameObject.tag == "Floor")
+      {
+        SceneManager.LoadScene("level1");
+      }
+    }
+    */
 }
