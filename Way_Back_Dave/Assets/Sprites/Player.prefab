@@ -143,7 +143,7 @@ MonoBehaviour:
     m_Bits: 567
   m_GroundCheck: {fileID: 8704863784515017069}
   m_CeilingCheck: {fileID: 6716759505876838441}
-  m_CrouchDisableCollider: {fileID: 0}
+  m_CrouchDisableCollider: {fileID: 8866046567983462287}
   OnLandEvent:
     m_PersistentCalls:
       m_Calls: []
@@ -254,9 +254,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.02, y: 0.11}
+  m_Offset: {x: 0, y: 0.06}
   serializedVersion: 2
-  m_Radius: 0.62811375
+  m_Radius: 0.42
 --- !u!114 &8552445670071382160
 MonoBehaviour:
   m_ObjectHideFlags: 0
