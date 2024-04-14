@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Levels/covid.unity
     guid: e4e6799c11a854f7ebf2e82361d7caca
   - enabled: 1
+    path: Assets/Levels/90sSpaceInvaders.unity
+    guid: b94808d5f022a4b2080f4aac1995a634
+  - enabled: 1
     path: Assets/Levels/Disco.unity
     guid: 621539e73936a4db1a7fc5defc4d7123
   - enabled: 1
