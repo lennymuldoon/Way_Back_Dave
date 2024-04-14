@@ -57,22 +57,7 @@ public class PlayerMovement : MonoBehaviour
 
       if (collision.gameObject.tag == "Floor")
       {
-        SceneManager.LoadScene("level1");
+        transform.position = respawnPoint;
       }
     }
-
-    /*
-    void OnCollisionEnter2D(Collision2D collision)
-    {
-       if (collision.gameObject.name == "Portal")
-       {
-           NextLevel.Instance.transitionToNextLevel();
-       }
-
-      if (collision.gameObject.tag == "Floor")
-      {
-        SceneManager.LoadScene("level1");
-      }
-    }
-    */
 }
