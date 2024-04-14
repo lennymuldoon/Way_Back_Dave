@@ -60,6 +60,16 @@ public class PlayerMovement : MonoBehaviour
            NextLevel.Instance.transitionToNextLevel();
        }
 
+       if (collision.gameObject.name == "End")
+       {
+           Application.Quit();
+       }
+
+       if (collision.gameObject.name == "Restart")
+       {
+           SceneManager.LoadScene(1);
+       }
+
       if (collision.gameObject.tag == "Floor")
       {
         transform.position = respawnPoint;
